@@ -130,7 +130,7 @@ router.start(Vue.extend(App),'#app')//#app是what 鬼，哪里来的？
 ```javascript
 //app.vue 瞧好了，vue 组件大法来了
 <template>
-    <div id="main>
+    <div id="main">
         <router-view></router-view> //路由组件
     </div>   
 </template>
